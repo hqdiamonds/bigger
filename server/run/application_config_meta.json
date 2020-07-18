@@ -1,0 +1,278 @@
+{
+  "keys": "D:\\project\\bigger\\server\\config\\config.default.js",
+  "view": {
+    "defaultViewEngine": "D:\\project\\bigger\\server\\config\\config.default.js",
+    "mapping": {
+      ".tpl": "D:\\project\\bigger\\server\\config\\config.default.js"
+    },
+    "root": "D:\\project\\bigger\\server\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\project\\bigger\\server\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\project\\bigger\\server\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "news": {
+    "pageSize": "D:\\project\\bigger\\server\\config\\config.default.js",
+    "serverUrl": "D:\\project\\bigger\\server\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "D:\\project\\bigger\\server\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\project\\bigger\\server\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\project\\bigger\\server\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\project\\bigger\\server\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "type": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "D:\\project\\bigger\\server\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\project\\bigger\\server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\project\\bigger\\server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\project\\bigger\\server\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\project\\bigger\\server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\project\\bigger\\server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\project\\bigger\\server\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\project\\bigger\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\project\\bigger\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\project\\bigger\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\project\\bigger\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\project\\bigger\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\project\\bigger\\server\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\project\\bigger\\server\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\project\\bigger\\server\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\project\\bigger\\server\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\project\\bigger\\server\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\project\\bigger\\server\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\project\\bigger\\server\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\project\\bigger\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\project\\bigger\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\project\\bigger\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\project\\bigger\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\project\\bigger\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\project\\bigger\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\project\\bigger\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\project\\bigger\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\project\\bigger\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\project\\bigger\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\project\\bigger\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\project\\bigger\\server\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "D:\\project\\bigger\\server\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\project\\bigger\\server\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\project\\bigger\\server\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\project\\bigger\\server\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\project\\bigger\\server\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\project\\bigger\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\project\\bigger\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\project\\bigger\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\project\\bigger\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\project\\bigger\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\project\\bigger\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\project\\bigger\\server\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\project\\bigger\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\project\\bigger\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\project\\bigger\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\project\\bigger\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\project\\bigger\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\project\\bigger\\server\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "D:\\project\\bigger\\server\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "D:\\project\\bigger\\server\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "D:\\project\\bigger\\server\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "D:\\project\\bigger\\server\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "D:\\project\\bigger\\server\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+  },
+  "env": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "main": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "test": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\project\\bigger\\server\\node_modules\\egg\\config\\config.default.js"
+}

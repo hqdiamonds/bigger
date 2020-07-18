@@ -1,0 +1,23 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "egg-bin dev"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "egg": "^2.27.0",
+        "egg-mysql": "^3.0.0",
+        "egg-sequelize": "^5.2.2",
+        "egg-view-nunjucks": "^2.2.0",
+        "mysql2": "^2.1.0"
+    },
+    "devDependencies": {
+        "egg-bin": "^4.15.0",
+        "sequelize-cli": "^6.2.0"
+    }
+}
