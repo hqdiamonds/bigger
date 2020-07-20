@@ -1,23 +1,28 @@
 <template>
   <div id="app">
-    <vue-draggable-resizable>
+    <el-button>你好</el-button>
+    <comSelector />
+    <vue-draggable-resizable @activated="onActivated" cp-id="111">
                 <img alt="Vue logo" src="./assets/logo.png">
 
          </vue-draggable-resizable>
-           <HelloWorld msg="Welcome to Your Vue.js App"/>
-
-
+    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import VueDraggableResizable from 'vue-draggable-resizable';
+import VueDraggableResizable from '@comp-com/vue-draggable-resizable';
+import comSelector from '@src/components/com-selector'
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    VueDraggableResizable
+    VueDraggableResizable,
+    comSelector
+  },
+  methods: {
+    onActivated(params) {
+      console.log(params, '123');
+    }
   }
 }
 </script>
