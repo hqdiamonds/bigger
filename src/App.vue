@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <el-button>你好</el-button>
-    <comSelector />
+    
     <vue-draggable-resizable @activated="onActivated" cp-id="111">
                 <img alt="Vue logo" src="./assets/logo.png">
 
@@ -12,12 +12,10 @@
 
 <script>
 import VueDraggableResizable from '@comp-com/vue-draggable-resizable';
-import comSelector from '@src/components/com-selector'
 export default {
   name: 'App',
   components: {
     VueDraggableResizable,
-    comSelector
   },
   methods: {
     onActivated(params) {
