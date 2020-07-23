@@ -1,26 +1,30 @@
 <template>
   <div id="app">
-    <el-button>你好</el-button>
+    <Hello />
+    <!-- <el-button>你好</el-button> -->
     
-    <vue-draggable-resizable @activated="onActivated" cp-id="111">
+    <!-- <vue-draggable-resizable @activated="onActivated" cp-id="111">
                 <img alt="Vue logo" src="./assets/logo.png">
 
-         </vue-draggable-resizable>
+         </vue-draggable-resizable> -->
     
   </div>
 </template>
 
 <script>
-import VueDraggableResizable from '@comp-com/vue-draggable-resizable';
+import Hello from './components/HelloWorld'
+// import { directive } from 'vue/types/umd'
+// import VueDraggableResizable from '@comp-com/vue-draggable-resizable';
 export default {
   name: 'App',
   components: {
-    VueDraggableResizable,
+    // VueDraggableResizable,
+    Hello
   },
   methods: {
-    onActivated(params) {
-      console.log(params, '123');
-    }
+    // onActivated(params) {
+    //   console.log(params, '123');
+    // }
   }
 }
 </script>

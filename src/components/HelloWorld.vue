@@ -1,15 +1,12 @@
-<template>
-  <div class="hello">
-   
-  </div>
-</template>
-
 <script>
 export default {
   name: 'HelloWorld',
-  props: {
-    msg: String
+  render() {
+    return(
+      <div>我来了哈哈哈</div>
+    )
   }
+  
 }
 </script>
 
