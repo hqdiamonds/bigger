@@ -17,7 +17,7 @@
         "mysql2": "^2.1.0"
     },
     "devDependencies": {
-        "egg-bin": "^4.15.0",
+        "egg-bin": "^5.9.0",
         "sequelize-cli": "^6.2.0"
     }
 }
